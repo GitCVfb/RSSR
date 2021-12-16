@@ -53,7 +53,7 @@ The visualization results will be stored in the `experiments` folder. Other exam
 ## Training and evaluating
 You can run following commands to re-train the network.
 ```
-# !! Please update the corresponding paths in 'train.sh' with  #
+# !! Please update the corresponding paths in 'train_carla.sh' and 'train_fastec.sh' with  #
 # !! your own local paths, before run following command!!      #
 
 sh train_carla.sh
