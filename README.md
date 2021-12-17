@@ -36,7 +36,7 @@ cd ./reblur_package
 python setup.py install
 ```
 ## Demo with our pretrained model
-Please download [pretrained model](https://drive.google.com/drive/folders/1_ScKNMYztcQDriG7OzNBGXvZ1PqKOSo9?usp=sharing) and unzip it under the main directory.
+Please download [our pretrained model](https://drive.google.com/drive/folders/1_ScKNMYztcQDriG7OzNBGXvZ1PqKOSo9?usp=sharing) and unzip it under the main directory.
 
 You can now test our model with the provided images in the `demo` folder.
 
