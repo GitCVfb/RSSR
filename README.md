@@ -40,7 +40,7 @@ Please download [our pretrained model](https://drive.google.com/drive/folders/1_
 
 You can now test our model with the provided images in the `demo` folder.
 
-To generate the global shutter images corresponding to the middle and first sanlines, simply run
+To generate the global shutter images corresponding to the middle and first scanlines, simply run
 ```
 sh demo.sh
 ```
