@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ```
 The code is tested with PyTorch 1.6.0 with CUDA 10.2.89.
 
-Note that in our implementation, we borrowed some modules from [DeepUnrollNet](https://github.com/ethliup/DeepUnrollNet) and [SelfDeblur](https://github.com/ethliup/SelfDeblur).
+Note that in our implementation, we borrowed some modules from [DeepUnrollNet](https://github.com/ethliup/DeepUnrollNet) and [SelfDeblur](https://github.com/ethliup/SelfDeblur) as follows:
 
 #### Install correlation package
 ```
@@ -36,7 +36,7 @@ cd ./reblur_package
 python setup.py install
 ```
 ## Demo with our pretrained model
-Please download [our pretrained model](https://drive.google.com/drive/folders/1_ScKNMYztcQDriG7OzNBGXvZ1PqKOSo9?usp=sharing) and unzip it under the `deep_unroll_weights` folder of the main directory.
+Please download the [pretrained model](https://drive.google.com/drive/folders/1_ScKNMYztcQDriG7OzNBGXvZ1PqKOSo9?usp=sharing) and unzip these three subfolders to the `deep_unroll_weights` folder of the main directory.
 
 You can now test our model with the provided images in the `demo` folder.
 
@@ -48,7 +48,7 @@ To generate multiple global shutter video frames, e.g. 10× temporal upsampling,
 ```
 sh demo_video.sh
 ```
-The visualization results will be stored in the `experiments` folder. Other examples in the dataset can be tested similarly.
+The visualization results will be stored in the `experiments` folder. Note that additional examples in the dataset can be tested similarly.
 
 ## Datasets
 - **Carla-RS** and **Fastec-RS:** Download them to your local computer from [here](https://github.com/ethliup/DeepUnrollNet).
