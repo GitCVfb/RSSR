@@ -36,7 +36,7 @@ cd ./reblur_package
 python setup.py install
 ```
 ## Demo with our pretrained model
-Please download [our pretrained model](https://drive.google.com/drive/folders/1_ScKNMYztcQDriG7OzNBGXvZ1PqKOSo9?usp=sharing) and unzip it under `deep_unroll_weights` of the main directory.
+Please download [our pretrained model](https://drive.google.com/drive/folders/1_ScKNMYztcQDriG7OzNBGXvZ1PqKOSo9?usp=sharing) and unzip it under the `deep_unroll_weights` folder of the main directory.
 
 You can now test our model with the provided images in the `demo` folder.
 
