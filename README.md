@@ -71,7 +71,7 @@ bash download_pretrained_models.sh
 
 sh inference.sh
 ```
-Note that `--load_1st_GS=0` denotes the correction result corresponding to the middle scanline of second RS frame, and `--load_1st_GS=1` denotes that corresponding to the first scanline of second RS frame.
+Note that `--load_1st_GS=0` denotes the correction evaluation corresponding to the middle scanline of second RS frame, and `--load_1st_GS=1` denotes the correction evaluation corresponding to the first scanline of second RS frame.
 
 ## Citations
 Please cite our paper if necessary:
