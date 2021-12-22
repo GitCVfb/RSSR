@@ -55,11 +55,10 @@ class Dataset_fastec_rs(Dataset):
                             
                         seq_optiflow.append(os.path.join(seq_path, str(i+j).zfill(3)+'_flow_raft.flo'))
                     
-                    if self.load_optiflow:
-                        if os.path.exists(seq_optiflow[0]) or not os.path.exists(seq_optiflow[1]):
-                            seq_optiflow[1] = seq_optiflow[0]
+                    if os.path.exists(seq_optiflow[0]) or not os.path.exists(seq_optiflow[1]):
+                        seq_optiflow[1] = seq_optiflow[0]
                     
-                    if not os.path.exists(seq_Irs[-1]) or not os.path.exists(seq_optiflow[0]):
+                    if not os.path.exists(seq_Irs[-1]):
                         break
 
                     self.I_rs.append(seq_Irs.copy())
