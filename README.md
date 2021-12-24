@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ```
 The code is tested with PyTorch 1.6.0 with CUDA 10.2.89.
 
-Note that in our implementation, we borrowed some modules from [DeepUnrollNet](https://github.com/ethliup/DeepUnrollNet) and [SelfDeblur](https://github.com/ethliup/SelfDeblur) as follows:
+Note that in our implementation, we borrowed some packages from [DeepUnrollNet](https://github.com/ethliup/DeepUnrollNet) and [SelfDeblur](https://github.com/ethliup/SelfDeblur) as follows:
 
 #### Install correlation package
 ```
