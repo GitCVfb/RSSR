@@ -85,5 +85,5 @@ Please cite our paper if necessary:
 }
 ```
 
-## Contact
-Please drop me an email for further problems or discussion: binfan@mail.nwpu.edu.cn
+## Statement
+This project is for research purpose only, please contact us for the licence of commercial use. For any other questions or discussion please contact: binfan@mail.nwpu.edu.cn
