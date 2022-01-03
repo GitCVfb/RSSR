@@ -9,3 +9,4 @@ opencv==3.1.0
 imageio==2.9.0
 scipy==1.1.0
 cupy==8.2.0
+tqdm==4.54.0
