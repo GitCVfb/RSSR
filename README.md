@@ -2,7 +2,7 @@
 
 This repository contains the source code for the paper: [Inverting a Rolling Shutter Camera: Bring Rolling Shutter Images to High Framerate Global Shutter Video (ICCV2021)](https://openaccess.thecvf.com/content/ICCV2021/papers/Fan_Inverting_a_Rolling_Shutter_Camera_Bring_Rolling_Shutter_Images_to_ICCV_2021_paper.pdf)
 
-From two consecutive rolling shutter images on the left, we can generate a high framerate global shutter video on the right.
+From two consecutive rolling shutter images overlayed on the left, we can generate a high framerate global shutter video on the right.
 
 <img src="result_demo/seq_02_overlay.png" height="280px"/> <img src="result_demo/seq_02_crop_demo.gif" height="280px"/>
 
