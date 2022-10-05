@@ -83,6 +83,16 @@ Please cite our paper if necessary:
   pages={4228--4237},
   year={2021}
 }
+@article{fan_RSSR_TPAMI22,
+  title={Rolling shutter inversion: bring rolling shutter images to high framerate global shutter video},
+  author={Fan, Bin and Dai, Yuchao},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+	year={2022},
+	volume={},
+	number={},
+	pages={},
+	publisher={IEEE}
+}
 ```
 
 ## Statement
